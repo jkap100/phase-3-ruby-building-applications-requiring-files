@@ -1,3 +1,10 @@
+require 'pry'
+
+require_relative './garden'
+require_relative './plant'
+require_relative '../spec/plant'
+require_relative '../spec/garden'
+
 class Garden
   attr_accessor :name
 
